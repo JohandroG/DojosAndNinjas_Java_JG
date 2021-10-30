@@ -24,6 +24,7 @@ public class NinjasService {
 	}
 
 	
+	//Este va a dojosRepository
 	public Dojo findDojo(Long id) {
 		return  dr.findById(id);
 	}

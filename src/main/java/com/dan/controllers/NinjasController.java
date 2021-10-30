@@ -28,7 +28,7 @@ public class NinjasController {
 			@RequestParam(value="age") Long age) {
 
 		Dojo dojoinfo = ns.findDojo(d_id);
-
+		// Este va a Ninjas Service
 
 		Ninja newninja = new Ninja (firstname,lastname,age,dojoinfo);
 
